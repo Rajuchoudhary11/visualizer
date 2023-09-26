@@ -1,0 +1,76 @@
+body{
+    background-color:rgb(91, 147, 147);
+}
+
+h1{
+    color: rgb(89, 0, 255);
+    text-align: center;
+    font-size: 30px;
+    border: 3px red;
+   background-color: aqua;
+  
+   color: royalblue;
+   text-shadow: 2px 3px 3px rgba(0, 4, 10, 0.6);
+  
+}
+
+button{
+    border-style: solid;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 4px 6px 4px 6px;
+}
+
+button:hover{
+    background-color:yellow;
+}
+
+#newarr{
+    margin-right: 300px;
+}
+
+#bubble,#selection,#insertion,#merge,#quick,#sizer,#speed{
+    margin-right: 10px;
+    
+}
+
+#bar{
+    color: red;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: row;
+    padding: 20px 30px 10px 10px;
+}
+  
+.baritem {
+    background: yellow;
+    border: 1.25px solid blue;
+    width: 0.80%;
+  }
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color: #00FF00;
+}
+
+
+
+
+  p {
+    background-color: rgb(255, 255, 255);
+  margin: 0;
+text-size-adjust: 2cm;
+font-size: 150%;
+border: 3px solid sandybrown;
+  padding-block-start: 3%;
+  text-align: center;
+  
+  text-shadow: 8px,6px,2px,red;
+  padding-bottom: 3%;
+  }
