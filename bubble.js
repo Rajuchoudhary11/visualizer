@@ -1,6 +1,6 @@
 async function bubble(){
 
-  const ele=document.querySelectorAll('.s');
+    const ele=document.querySelectorAll(".sort");
     
     for(let i=0; i<ele.length-1; i++)
     {
@@ -22,12 +22,10 @@ async function bubble(){
         ele[ele.length-i-1].style.background='green';
     }
     ele[0].style.background='green';
-}
-
+    }
     document.getElementById('bubble').addEventListener("click", async function(){
         disableSizeSlider();
         disableSortingBtn();
-        
         await bubble();
         enableSizeSlider();
         enableSortingBtn();

@@ -2,7 +2,7 @@ async function selection(){
     const ele=document.querySelectorAll('.sort');
     for(let i=0; i<ele.length; i++)
     {
-        let x=i;
+        let x=i; 
         ele[i].style.background='red';
         for(let j=i+1; j<ele.length; j++)
         {
