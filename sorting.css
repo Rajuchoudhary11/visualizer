@@ -1,5 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
 body{
     background-color:rgb(74, 70, 70);
+   
+    
 }
 
 
@@ -74,4 +81,11 @@ border: 3px solid sandybrown;
   
   text-shadow: 8px,6px,2px,red;
   padding-bottom: 3%;
+  }
+
+  .foot{
+    width:100% ;
+    height: 70px;
+    background-color: rgb(37, 65, 192);
+    margin-top: 40px;
   }
